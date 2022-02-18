@@ -1,0 +1,38 @@
+.main div {
+    margin-top: 2rem;
+  }
+  
+  .box {
+    padding: 5px;
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  
+  img[alt="Crave_UI_Logo"] {
+    height: 20rem;
+  }
+  
+  .components-list ul {
+    padding: 1rem;
+    border-right: 2px solid var(--primary);
+  }
+  
+  .components-list li, .install a p{
+    list-style: none;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+    font-size: x-large;
+    height: 2rem; 
+    padding: 5px;
+    color: var(--secondary);
+  }
+  
+  .components-list li:hover, .install a p:hover{
+    border: 1px solid var(--primary);
+  }
+  
+  .components-list  a:link, .components-list  a:visited, .install a:link{ 
+    text-decoration: none;
+  }
