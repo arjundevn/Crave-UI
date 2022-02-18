@@ -1,0 +1,24 @@
+
+.alert {
+  border-radius: 5px;
+  height: 2rem; 
+  margin:2rem;
+  padding:1rem;
+  color: black;
+}
+
+.primary-alert {
+  background-color: rgb(170, 182, 238);
+}
+
+.success-alert {
+  background-color: rgb(170, 238, 198);
+}
+
+.danger-alert {
+  background-color: rgb(238, 170, 170);
+}
+
+.warning-alert {
+  background-color: rgb(238, 238, 170);
+}
