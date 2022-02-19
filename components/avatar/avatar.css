@@ -1,0 +1,26 @@
+.round-img {
+    border-radius: 50%;
+}
+
+.avatar--xsm {
+    height:4rem;
+}
+
+.avatar--sm {
+    height:6rem;    
+}
+
+.avatar--md {
+    height:8rem;
+}
+
+.avatar--lg {
+    height:10rem;
+}
+
+.avatar--xlg {
+    height:12rem;
+}
+
+
+
