@@ -1,0 +1,32 @@
+
+:root{
+  --primary-alert: #AAB6EE;
+  --success-alert:#AAEEC6;
+  --danger-alert:#EEAAAA;
+  --warning-alert:#EEEEAA;
+}
+
+
+.alert {
+  border-radius: 5px;
+  height: 2rem; 
+  margin:2rem;
+  padding:1rem;
+  color: black;
+}
+
+.primary-alert {
+  background-color:var(--primary-alert);
+}
+
+.success-alert {
+  background-color:var(--success-alert);
+}
+
+.danger-alert {
+  background-color: var(--danger-alert)
+}
+
+.warning-alert {
+  background-color: var(--warning-alert);
+}
