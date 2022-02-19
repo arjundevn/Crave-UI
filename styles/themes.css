@@ -1,4 +1,8 @@
 :root{
     --primary: lightskyblue;
-    --secondary:hotpink
+    --secondary:hotpink;
+    --white: white;
+    --red:red;
+    --green: lightgreen;
+    --black: black
   }
