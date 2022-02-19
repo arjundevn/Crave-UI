@@ -19,14 +19,12 @@
     border-right: 2px solid var(--primary);
   }
   
-  .components-list li, .install a p{
+  .components-list li , .install a p{
     list-style: none;
     border-radius: 0.5rem;
-    text-transform: capitalize;
     font-size: x-large;
     height: 2rem; 
     padding: 5px;
-    color: var(--secondary);
   }
   
   .components-list li:hover, .install a p:hover{

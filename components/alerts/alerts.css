@@ -1,4 +1,12 @@
 
+:root{
+  --primary-alert: #AAB6EE;
+  --success-alert:#AAEEC6;
+  --danger-alert:#EEAAAA;
+  --warning-alert:#EEEEAA;
+}
+
+
 .alert {
   border-radius: 5px;
   height: 2rem; 
@@ -8,17 +16,17 @@
 }
 
 .primary-alert {
-  background-color: rgb(170, 182, 238);
+  background-color:var(--primary-alert);
 }
 
 .success-alert {
-  background-color: rgb(170, 238, 198);
+  background-color:var(--success-alert);
 }
 
 .danger-alert {
-  background-color: rgb(238, 170, 170);
+  background-color: var(--danger-alert)
 }
 
 .warning-alert {
-  background-color: rgb(238, 238, 170);
+  background-color: var(--warning-alert);
 }
