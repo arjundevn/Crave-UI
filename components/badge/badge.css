@@ -52,11 +52,9 @@
     position:absolute;
     background-color: var(--primary);
     border: 2px solid var(--white);
-    z-index: 1;
 }
-.fa {
-    height:25px;
-}
+
+
 .icon {
     height:0.8rem;
     width:0.8rem;
