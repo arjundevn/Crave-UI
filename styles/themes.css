@@ -4,5 +4,9 @@
     --white: white;
     --red:red;
     --green: lightgreen;
-    --black: black
+    --black: black;
+    --blue: lightblue;
+    --grey: grey;
+    --yellow: yellow;
+    --darkblue: blue;
   }
