@@ -1,7 +1,16 @@
+/* Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+
+/* General Styles */
 @import "./general.css";
 @import "./reset.css";
 @import "./themes.css";
 
+/* Components */
 @import ".././components/alerts/alerts.css";
 @import ".././components/avatar/avatar.css";
 @import ".././components/badge/badge.css";
@@ -11,3 +20,4 @@
 @import ".././components/image/image.css";
 @import ".././components/input/input.css";
 @import ".././components/typography/typography.css";
+@import ".././components/rating/rating.css";

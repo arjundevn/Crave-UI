@@ -1,99 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crave-UI</title>
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crave-UI</title>
-  <link rel="stylesheet" href="../../styles/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-</head>
-
-<body>
-  <div class="container">
-    <div class="navbar">
-      <a href="/index.html">
-        <img src="../../assets/logo.png" alt="Crave_UI_Logo">
-      </a>
-      <div class="install">
+  <body>
+    <div class="container">
+      <div class="navbar">
         <a href="/index.html">
-          <p>Getting Started</p>
+          <img src="../../assets/logo.png" alt="Crave_UI_Logo" />
         </a>
+        <div class="install">
+          <a href="/index.html">
+            <p>Getting Started</p>
+          </a>
+        </div>
+        <div class="components-list">
+          <ul>
+            <li>
+              <a href="/components/alerts/alerts.html"><p>Alerts</p></a>
+            </li>
+            <li>
+              <a href="/components/avatar/avatar.html"><p>Avatar</p></a>
+            </li>
+            <li>
+              <a href="/components/badge/badge.html"><p>Badge</p></a>
+            </li>
+            <li>
+              <a href="/components/button/button.html"><p>Button</p></a>
+            </li>
+            <li>
+              <a href="/components/cards/cards.html"><p>Card</p></a>
+            </li>
+            <li>
+              <a href="/components/list/list.html"><p>List</p></a>
+            </li>
+            <li>
+              <a href="/components/image/image.html"><p>Image</p></a>
+            </li>
+            <li>
+              <a href="/components/input/input.html"><p>Input</p></a>
+            </li>
+            <li>
+              <a href="/components/typography/typography.html"
+                ><p>Typography</p></a
+              >
+            </li>
+            <li>
+              <a href="/components/slider/slider.html"><p>Slider</p></a>
+            </li>
+            <li>
+              <a href="/components/rating/rating.html"><p>Rating</p></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="components-list">
-        <ul>
-          <li><a href="/components/alerts/alerts.html"><p>Alerts</p></a></li>
-          <li><a href="/components/avatar/avatar.html"><p>Avatar</p></a></li>
-          <li><a href="/components/badge/badge.html"><p>Badge</p></a></li>
-          <li><a href="/components/button/button.html"><p>Button</p></a></li>
-          <li><a href="/components/cards/cards.html"><p>Card</p></a></li>
-          <li><a href="/components/list/list.html"><p>List</p></a></li>
-          <li><a href="/components/image/image.html"><p>Image</p></a></li>
-          <li><a href="/components/input/input.html"><p>Input</p></a></li>
-          <li><a href="/components/typography/typography.html"><p>Typography</p></a></li>
-          <li><a href="/components/slider/slider.html"><p>Slider</p></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="main">
-      <h1>FORM INPUT</h1>
-      <div class="description">
-        <p>A form component with inputs and buttons used mainly for authetication.</p>
-      </div>
-      <div class="code">
-        <iframe src="https://www.thiscodeworks.com/embed/621249855362a500156c2ba3" style="width: 100%; height: 242px;" frameborder="0"></iframe>
-      </div>
-      <div class="form form-input">
+      <div class="main">
+        <h1>FORM INPUT</h1>
+        <div class="description">
+          <p>
+            A form component with inputs and buttons used mainly for
+            authetication.
+          </p>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/621249855362a500156c2ba3"
+            style="width: 100%; height: 242px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="form form-input">
           <div class="form-group">
             <label for="email">Email address</label>
-            <input type="email" id ="email" class="field form-field" placeholder="Enter email">
+            <input
+              type="email"
+              id="email"
+              class="field form-field"
+              placeholder="Enter email"
+            />
           </div>
           <div class="form-group">
             <label for="password">Email password</label>
-            <input type="password" id="password" class="field form-field" placeholder="Enter password">
-         </div>
-         <button class="btn btn-primary btn-input">Sign In</button>
-         <button class="btn btn-secondary btn-input">Sign Up</button>
-         
-      </div>
+            <input
+              type="password"
+              id="password"
+              class="field form-field"
+              placeholder="Enter password"
+            />
+          </div>
+          <button class="btn btn-primary btn-input">Sign In</button>
+          <button class="btn btn-secondary btn-input">Sign Up</button>
+        </div>
 
-      <h1>FORM INPUT WITH ERRORS</h1>
-      <div class="description">
-        <p>A form component with inputs and buttons for used mainly for authetication highlighting erros.</p>
-      </div>
-      <div class="code">
-        <iframe src="https://www.thiscodeworks.com/embed/621249b75362a500156c2ba5" style="width: 100%; height: 242px;" frameborder="0"></iframe>
-      </div>
-      <div class="form form-input">
+        <h1>FORM INPUT WITH ERRORS</h1>
+        <div class="description">
+          <p>
+            A form component with inputs and buttons for used mainly for
+            authetication highlighting erros.
+          </p>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/621249b75362a500156c2ba5"
+            style="width: 100%; height: 242px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="form form-input">
           <div class="form-group">
             <label for="email">Email address</label>
-            <input type="email" id ="email" class="field form-error" placeholder="Enter email">
+            <input
+              type="email"
+              id="email"
+              class="field form-error"
+              placeholder="Enter email"
+            />
           </div>
           <p class="error-message">Please enter valid username/ password</p>
           <div class="form-group">
             <label for="password">Email password</label>
-            <input type="password" id="password" class="field form-error" placeholder="Enter password">
-         </div>
-         <button class="btn btn-primary btn-input">Sign In</button>
-         <button class="btn btn-secondary btn-input">Sign Up</button>
-      </div>
+            <input
+              type="password"
+              id="password"
+              class="field form-error"
+              placeholder="Enter password"
+            />
+          </div>
+          <button class="btn btn-primary btn-input">Sign In</button>
+          <button class="btn btn-secondary btn-input">Sign Up</button>
+        </div>
 
-      <h1>FORM WITH TEXT AREA</h1>
-      <div class="description">
-        <p>A form component with inputs and buttons for used mainly for authetication highlighting erros.</p>
-      </div>
-      <div class="code">
-        <iframe src="https://www.thiscodeworks.com/embed/62124a2c5362a500156c2ba8" style="width: 100%; height: 151px;" frameborder="0"></iframe>
-      </div>
-      <div class="form form-input">
-        <textarea name="message" cols="30" rows="10" class="input-textarea">Enter your message</textarea>
-        <button class="btn btn-primary btn-input">Confirm</button>
-        <button class="btn btn-secondary btn-input">Cancel</button>
+        <h1>FORM WITH TEXT AREA</h1>
+        <div class="description">
+          <p>
+            A form component with inputs and buttons for used mainly for
+            authetication highlighting erros.
+          </p>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/62124a2c5362a500156c2ba8"
+            style="width: 100%; height: 151px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="form form-input">
+          <textarea name="message" cols="30" rows="10" class="input-textarea">
+Enter your message</textarea
+          >
+          <button class="btn btn-primary btn-input">Confirm</button>
+          <button class="btn btn-secondary btn-input">Cancel</button>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
