@@ -1,0 +1,18 @@
+.square-image {
+    height: auto;
+    width: 50%;
+    border-radius: 1%;
+}
+
+.align-image {
+    display: flex;
+    list-style: none;
+}
+
+.image-thumbnail {
+    height: auto;
+    width: 50%;
+    border: 10px solid var(--border-white);
+    border-radius: 5%;
+}
+
