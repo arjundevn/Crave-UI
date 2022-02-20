@@ -1,0 +1,57 @@
+.list {
+    width: 20rem;
+}
+
+.list-group {
+    list-style: none;
+}
+
+.list-group-item {
+    padding: 10px 25px;
+    border: 1px solid white;
+    font-size: medium;
+}
+
+.active {
+    background-color: grey
+}
+
+.disabled {
+    color: grey;
+}
+
+.list-item-dark {
+    color: black;
+}
+
+.list-group-item-primary {
+    background-color: lightblue;
+}
+
+.list-group-item-secondary {
+    background-color: lightgrey;
+}
+
+.list-group-item-success {
+    background-color: lightgreen;
+}
+
+.list-group-item-danger {
+    background-color: lightsalmon;
+}
+
+.list-group-item-warning{
+    background-color: lightyellow;
+}
+
+.list-group-item-info {
+    background-color: rgb(95, 143, 214);
+}
+
+.list-group-item-light {
+    background-color: rgb(240, 213, 178);
+}
+
+.list-group-item-dark {
+    background-color: grey;
+}
