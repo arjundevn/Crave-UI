@@ -1,0 +1,51 @@
+.btn {
+    height: 3rem;
+    width: 10rem;
+    color: var(--black);
+    font-weight: 400;
+    font-size: large;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--grey);
+}
+
+.btn-success {
+    background-color: var(--green);
+}
+
+.btn-danger {
+    background-color: var(--red);
+}
+
+.btn-warning {
+    background-color: var(--yellow);
+}
+
+.btn-info {
+    background-color: var(--darkblue);
+}
+
+a .btn:hover {
+    cursor: pointer;
+}
+
+.btn-icon {
+    padding:10px;
+    width:3rem;
+    background: var(--primary);
+    color:var(--black);
+    margin-right: 3rem;
+}
+
+.btn-float{
+    border-radius: 50%;
+    background-color: var(--secondary);
+}
+
+
+
