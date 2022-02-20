@@ -1,103 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crave-UI</title>
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crave-UI</title>
-  <link rel="stylesheet" href="../../styles/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-</head>
-
-<body>
-  <div class="container">
-    <div class="navbar">
-      <a href="/index.html">
-        <img src="../../assets/logo.png" alt="Crave_UI_Logo">
-      </a>
-      <div class="install">
+  <body>
+    <div class="container">
+      <div class="navbar">
         <a href="/index.html">
-          <p>Getting Started</p>
+          <img src="../../assets/logo.png" alt="Crave_UI_Logo" />
         </a>
+        <div class="install">
+          <a href="/index.html">
+            <p>Getting Started</p>
+          </a>
+        </div>
+        <div class="components-list">
+          <ul>
+            <li>
+              <a href="/components/alerts/alerts.html"><p>Alerts</p></a>
+            </li>
+            <li>
+              <a href="/components/avatar/avatar.html"><p>Avatar</p></a>
+            </li>
+            <li>
+              <a href="/components/badge/badge.html"><p>Badge</p></a>
+            </li>
+            <li>
+              <a href="/components/button/button.html"><p>Button</p></a>
+            </li>
+            <li>
+              <a href="/components/cards/cards.html"><p>Card</p></a>
+            </li>
+            <li>
+              <a href="/components/list/list.html"><p>List</p></a>
+            </li>
+            <li>
+              <a href="/components/image/image.html"><p>Image</p></a>
+            </li>
+            <li>
+              <a href="/components/input/input.html"><p>Input</p></a>
+            </li>
+            <li>
+              <a href="/components/typography/typography.html"
+                ><p>Typography</p></a
+              >
+            </li>
+            <li>
+              <a href="/components/slider/slider.html"><p>Slider</p></a>
+            </li>
+            <li>
+              <a href="/components/rating/rating.html"><p>Rating</p></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="components-list">
-        <ul>
-          <li><a href="/components/alerts/alerts.html"><p>Alerts</p></a></li>
-          <li><a href="/components/avatar/avatar.html"><p>Avatar</p></a></li>
-          <li><a href="/components/badge/badge.html"><p>Badge</p></a></li>
-          <li><a href="/components/button/button.html"><p>Button</p></a></li>
-          <li><a href="/components/cards/cards.html"><p>Card</p></a></li>
-          <li><a href="/components/list/list.html"><p>List</p></a></li>
-          <li><a href="/components/image/image.html"><p>Image</p></a></li>
-          <li><a href="/components/input/input.html"><p>Input</p></a></li>
-          <li><a href="/components/typography/typography.html"><p>Typography</p></a></li>
-          <li><a href="/components/slider/slider.html"><p>Slider</p></a></li>
-        </ul>
+      <div class="main">
+        <h1>PRIMARY BUTTONS</h1>
+        <div class="description">
+          <p>Different options of primary buttons depending on color codes.</p>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/6212108b5362a500156c2b58"
+            style="width: 100%; height: 164px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="display-components box">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-danger">Danger</button>
+          <button class="btn btn-warning">Warning</button>
+          <button class="btn btn-info">Info</button>
+        </div>
+        <h1>LINK BUTTONS</h1>
+        <div class="description">
+          <p>
+            Different options of primary buttons providing links to other
+            elements.
+          </p>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/621210f95362a500156c2b59"
+            style="width: 100%; height: 164px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="display-components box">
+          <a href="#"><button class="btn btn-primary">Primary</button></a>
+          <a href="#"><button class="btn btn-secondary">Secondary</button></a>
+          <a href="#"><button class="btn btn-success">Success</button></a>
+          <a href="#"><button class="btn btn-danger">Danger</button></a>
+          <a href="#"><button class="btn btn-warning">Warning</button></a>
+          <a href="#"><button class="btn btn-info">Info</button></a>
+        </div>
+        <h1>ICON BUTTONS</h1>
+        <div class="description">
+          <p>
+            Different options of buttons to connect to specific applications/
+            social media.
+          </p>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/621211245362a500156c2b5a"
+            style="width: 100%; height: 164px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="display-components box">
+          <button class="btn-icon fa fa-facebook"></button>
+          <button class="btn-icon fa fa-envelope"></button>
+          <button class="btn-icon fa fa-calendar"></button>
+          <button class="btn-icon fa fa-headphones"></button>
+          <button class="btn-icon fa fa-user"></button>
+          <button class="btn-icon fa fa-bluetooth"></button>
+        </div>
+        <h1>FLOAT BUTTONS</h1>
+        <div class="description">
+          <p>
+            Floating action button (FAB) to display according to primary action
+            on screen.
+          </p>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://www.thiscodeworks.com/embed/621212575362a500156c2b5b"
+            style="width: 100%; height: 138px"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div class="display-components box">
+          <button class="btn-icon btn-float fa fa-thumbs-up"></button>
+          <button class="btn-icon btn-float fa fa-thumbs-down"></button>
+          <button class="btn-icon btn-float fa fa-plus"></button>
+          <button class="btn-icon btn-float fa fa-address-book"></button>
+        </div>
       </div>
     </div>
-    <div class="main">
-      <h1>PRIMARY BUTTONS</h1>
-      <div class="description">
-        <p>Different options of primary buttons depending on color codes.</p>
-      </div>
-      <div class="code">
-        <iframe src="https://www.thiscodeworks.com/embed/6212108b5362a500156c2b58" style="width: 100%; height: 164px;" frameborder="0"></iframe>
-      </div>
-      <div class="display-components box">
-        <button class="btn btn-primary">Primary</button>
-        <button class="btn btn-secondary">Secondary</button>
-        <button class="btn btn-success">Success</button>
-        <button class="btn btn-danger">Danger</button>
-        <button class="btn btn-warning">Warning</button>
-        <button class="btn btn-info">Info</button>
-      </div>
-      <h1>LINK BUTTONS</h1>
-      <div class="description">
-        <p>Different options of primary buttons providing links to other elements.</p>
-      </div>
-      <div class="code">
-        <iframe src="https://www.thiscodeworks.com/embed/621210f95362a500156c2b59" style="width: 100%; height: 164px;" frameborder="0"></iframe>
-      </div>
-      <div class="display-components box">
-        <a href="#"><button class="btn btn-primary">Primary</button></a>
-        <a href="#"><button class="btn btn-secondary">Secondary</button></a>
-        <a href="#"><button class="btn btn-success">Success</button></a>
-        <a href="#"><button class="btn btn-danger">Danger</button></a>
-        <a href="#"><button class="btn btn-warning">Warning</button></a>
-        <a href="#"><button class="btn btn-info">Info</button></a>
-      </div>
-      <h1>ICON BUTTONS</h1>
-      <div class="description">
-        <p>Different options of buttons to connect to specific applications/ social media.</p>
-      </div>
-      <div class="code">
-        <iframe src="https://www.thiscodeworks.com/embed/621211245362a500156c2b5a" style="width: 100%; height: 164px;" frameborder="0"></iframe>
-      </div>
-      <div class="display-components box">
-        <button class="btn-icon fa fa-facebook"></button>
-        <button class="btn-icon fa fa-envelope"></button>
-        <button class="btn-icon fa fa-calendar"></button>
-        <button class="btn-icon fa fa-headphones"></button>
-        <button class="btn-icon fa fa-user"></button>
-        <button class="btn-icon fa fa-bluetooth"></button>
-      </div>
-      <h1>FLOAT BUTTONS</h1>
-      <div class="description">
-        <p>Floating action button (FAB) to display according to primary action on screen. </p>
-      </div>
-      <div class="code">
-        <iframe src="https://www.thiscodeworks.com/embed/621212575362a500156c2b5b" style="width: 100%; height: 138px;" frameborder="0"></iframe>
-      </div>
-      <div class="display-components box">
-        <button class="btn-icon btn-float fa fa-thumbs-up"></button>
-        <button class="btn-icon btn-float fa fa-thumbs-down"></button>
-        <button class="btn-icon btn-float fa fa-plus"></button>
-        <button class="btn-icon btn-float fa fa-address-book"></button>
-      </div>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
