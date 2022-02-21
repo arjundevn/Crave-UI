@@ -53,6 +53,7 @@
     margin-top: 2rem;
   }
 
+<<<<<<< HEAD
   html{
     font-size: 62.5%;  
   }
@@ -72,4 +73,8 @@
     html{
       font-size: 100%; /* here it gets changed to 16px */
     }
+=======
+  .github-button{
+    margin-top: 2rem;
+>>>>>>> 7c663d50dd50ec8781de5a9031beeb9fafee6fd3
   }
